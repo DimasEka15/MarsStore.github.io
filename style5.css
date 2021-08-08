@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #171717 !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* navbar */
+
+.logo {
+  font-weight: bolder;
+  color: white;
+}
+
+.navbar {
+  background-color: #171717;
+}
+
+.nav-item.active a {
+  color: #f9b234 !important;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 300;
+  margin-left: 24px;
+}
+
+.nav-link:hover {
+  color: #f9b234 !important;
+}
+
+.btn.cont {
+  background-color: #f9b234;
+  color: white !important;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.v1 {
+  border-left: 1px solid white;
+  height: 32px;
+}
+
+/* end-navbar */
+
+/* carousel */
+
+.hero {
+  background-color: #171717;
+  height: 500px;
+}
+
+.hero h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.hero h1,
+.hero p {
+  color: white !important;
+}
+
+/* end-carousel */
+
+/* features */
+
+.features {
+  background-color: #fafafa;
+}
+
+.sub-title {
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.content {
+  height: 500px;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.card img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.discon {
+  font-size: 12px;
+}
+
+.discon-persen {
+  background-color: #fd595936;
+  font-size: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.rate span {
+  border-left: 1px solid #171717;
+  height: 32px;
+}
+
+.rate p {
+  font-size: 12px;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.carousel-item .row {
+  margin-top: 16px;
+}
+
+/* end-features */
+
+/* promo */
+
+.countdown p {
+  background-color: #f9b234;
+  font-weight: 700;
+  color: white;
+}
+
+.more {
+  text-decoration: none;
+  font-weight: 700;
+  color: #f9b234;
+}
+/* end-promo */
+
+/* footer */
+
+footer {
+  background-color: #171717;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.underline {
+  border-bottom: 1px solid white;
+}
+
+/* end-footer */
+
+/*  */

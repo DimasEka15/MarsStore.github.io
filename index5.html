@@ -1,0 +1,2065 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style5.css" />
+
+    <title>Mars Store</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container container-fluid mt-1 mb-1">
+        <a class="navbar-brand logo" href="index.html">Mars Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategori
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Kategori 1</a></li>
+                <li><a class="dropdown-item" href="#">Kategori 2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Kategori 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang </a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control rounded-pill"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-dark rounded-circle ms-1"
+                type="submit"
+                id="button-addon2"
+              >
+                <i class="bi bi-search text-light"></i>
+              </button>
+            </div>
+          </form>
+
+          <a
+            class="
+              btn btn-dark
+              rounded-circle
+              ms-2
+              mt-3 mt-lg-1
+              position-relative
+            "
+            href="#"
+            role="button"
+          >
+            <i class="bi bi-cart2 text-light">
+              <!-- <span class="
+              position-absolute 
+              top-0 
+              start-100 
+              translate-middle 
+              badge rounded-pill 
+              bg-danger">
+              99+
+              <span class="visually-hidden">notif total cart</span> -->
+            </i>
+          </a>
+
+          <span class="v1 ms-4 mt-1 d-none d-lg-block"></span>
+
+          <a class="btn cont ms-4 mt-3 mt-lg-1" href="#" role="button">Masuk</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end-navbar -->
+
+    <!-- carousel -->
+
+    <div
+      id="carouselHeroIndicators"
+      class="carousel slide hero mt-5"
+      data-bs-ride="carousel"
+    >
+      <!-- indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselHeroIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselHeroIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselHeroIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- inner -->
+
+      <div class="carousel-inner">
+        <div class="container">
+          <!-- item 1 -->
+          <div class="carousel-item active">
+            <div class="row pt-5 justify-content-center">
+              <div
+                class="
+                  col col-6 col-sm-6 col-md-5 col-lg-4
+                  offset-md-1 offset-lg-2
+                "
+              >
+                <h1 class="display-5 mb-4">Spesial HUT RI ke-76</h1>
+                <p class="mb-5">
+                  Rayakanlah hari kemerdekaan Republik Indonesia yang ke-76
+                  dengan menggunakan produk lokal yang terjangkau
+                </p>
+                <a class="btn cont px-3 py-2" href="#" role="button"
+                  >Dapatkan
+                </a>
+              </div>
+
+              <div
+                class="
+                  col
+                  d-none d-sm-block
+                  col-sm-5 col-md-5 col-lg-4
+                  offset-1
+                "
+              >
+                <img
+                  src="img/slideshow/slide.png"
+                  alt="slide"
+                  class="d-block rounded-3"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div
+                class="
+                  col col-6 col-sm-6 col-md-5 col-lg-4
+                  offset-md-1 offset-lg-2
+                "
+              >
+                <h1 class="display-5 mb-4">Spesial Promo 8.8 SALE</h1>
+                <p class="mb-5">
+                  Spesial promo 8.8 SALE dengan disko 80% untuk produk tertentu
+                </p>
+                <a class="btn cont px-3 py-2" href="#" role="button"
+                  >Dapatkan
+                </a>
+              </div>
+
+              <div
+                class="
+                  col
+                  d-none d-sm-block
+                  col-sm-5 col-md-5 col-lg-4
+                  offset-1
+                "
+              >
+                <img
+                  src="img/slideshow/slide2.png"
+                  alt="slide"
+                  class="d-block rounded-3"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div
+                class="
+                  col col-6 col-sm-6 col-md-5 col-lg-4
+                  offset-md-1 offset-lg-2
+                "
+              >
+                <h1 class="display-5 mb-4">#dirumahaja, Gratis Ongkir</h1>
+                <p class="mb-5">
+                  Promo gratis ongkir buat kamu agar selalu #dirumahaja demi
+                  berakhirnya pandemi
+                </p>
+                <a class="btn cont px-3 py-2" href="#" role="button"
+                  >Dapatkan
+                </a>
+              </div>
+
+              <div
+                class="
+                  col
+                  d-none d-sm-block
+                  col-sm-5 col-md-5 col-lg-4
+                  offset-1
+                "
+              >
+                <img
+                  src="img/slideshow/slide3.png"
+                  alt="slide"
+                  class="d-block rounded-3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- control -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselHeroIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselHeroIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- end-carousel -->
+
+    <!-- brand -->
+
+    <section class="brand">
+      <div class="container">
+        <div class="row text-center p-5">
+          <div class="col-md m-3">
+            <img src="img/brand/billpro.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md m-3">
+            <img src="img/brand/pnb.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md m-3">
+            <img src="img/brand/nike.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md m-3">
+            <img src="img/brand/uniqlo.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end-brand -->
+
+    <!-- features -->
+
+    <section class="features p-5">
+      <div class="container">
+        <!-- head -->
+        <div class="row">
+          <div class="col">
+            <h4 class="sub-title">Spesial HUT RI</h4>
+            <p class="d-md-inline-block">
+              Promo pakaian yang cocok untuk HUT RI ke-76
+            </p>
+            <a class="more float-md-end" href="#">Lihat Semua </a>
+          </div>
+        </div>
+      </div>
+      <!-- end-head -->
+
+      <!-- content -->
+      <div class="row">
+        <div class="col">
+          <!-- carousel-indi -->
+          <div
+            id="carouselFeaturesIndicators"
+            class="carousel carousel-dark slide content"
+            data-bs-ride="carousel"
+            data-bs-interval="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselFeaturesIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselFeaturesIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <!-- end-carousel-indi -->
+
+            <!-- carousel-inner -->
+            <div class="carousel-inner mt-3 mb-3">
+              <div class="container">
+                <!-- page 1 -->
+                <div class="carousel-item active">
+                  <div class="row mx-5">
+                    <!-- item-1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <div class="card">
+                        <a
+                          class="card-hyperlink"
+                          href="single-product/hoodie-vrnchy.html"
+                        >
+                          <img
+                            src="img/features/1.png"
+                            class="card-img-top"
+                            alt="1"
+                          />
+
+                          <div class="card-body">
+                            <p class="card-text">
+                              Hoodie VRNCHY Spesial Edition
+                            </p>
+
+                            <div class="discon">
+                              <span
+                                class="
+                                  discon-persen
+                                  p-2
+                                  rounded-pill
+                                  text-danger
+                                "
+                                >70%</span
+                              >
+                              <p
+                                class="
+                                  d-inline-block
+                                  text-secondary
+                                  ms-1
+                                  mt-sm-3 mt-lg-0
+                                "
+                              >
+                                <s>Rp150.000,00</s>
+                              </p>
+                            </div>
+
+                            <h5 class="card-title mt-1 mb-3 text-truncate">
+                              Rp45.000,00.
+                            </h5>
+                            <div class="rate">
+                              <i class="bi bi-star-fill text-warning"></i>
+                              <p class="d-inline-block text-secondary">
+                                4.7 <span class="ms-2 me-2"></span> Terjual 100
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- end-item-1 -->
+
+                    <!-- item-2 -->
+
+                    <div
+                      class="
+                        d-none d-sm-block
+                        col-sm-6 col-md-4 col-lg-3 col-xl-2
+                      "
+                    >
+                      <div class="card">
+                        <img
+                          src="img/features/2.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- end-item-2 -->
+
+                    <!-- item-3 -->
+                    <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/3.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-3 -->
+
+                    <!-- item-4 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/4.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-4 -->
+
+                    <!-- item-5 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/5.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-5 -->
+
+                    <!-- item-6 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/6.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-6 -->
+                  </div>
+                </div>
+                <!-- end-page 1 -->
+
+                <!-- page-2 -->
+                <div class="carousel-item">
+                  <div class="row mx-5">
+                    <!-- item-2 -->
+
+                    <div class="d-sm-none col-12">
+                      <div class="card">
+                        <img
+                          src="img/features/2.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- end-item-2 -->
+
+                    <!-- item-3 -->
+                    <div class="d-none d-sm-block d-md-none col-6">
+                      <div class="card">
+                        <img
+                          src="img/features/3.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-3 -->
+
+                    <!-- item-4 -->
+                    <div class="d-none d-sm-block d-lg-none col-6 col-md-4">
+                      <div class="card">
+                        <img
+                          src="img/features/4.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-4 -->
+
+                    <!-- item-5 -->
+                    <div class="d-none d-md-block d-xl-none col-md-4 col-lg-3">
+                      <div class="card">
+                        <img
+                          src="img/features/5.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-5 -->
+
+                    <!-- item-6 -->
+                    <div class="d-none d-md-block d-xl-none col-md-4 col-lg-3">
+                      <div class="card">
+                        <img
+                          src="img/features/6.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-6 -->
+
+                    <!-- item-7 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/7.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-7 -->
+
+                    <!-- item-8 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/8.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-8 -->
+
+                    <!-- item-9 -->
+                    <div class="d-none d-xl-block col-xl -2">
+                      <div class="card">
+                        <img
+                          src="img/features/9.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-9 -->
+
+                    <!-- item-10 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/10.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-10 -->
+
+                    <!-- item-11 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/11.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-11 -->
+
+                    <!-- item-12 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/12.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-12 -->
+                  </div>
+                </div>
+                <!-- end-page-2 -->
+              </div>
+            </div>
+
+            <!-- end-carousel-inner -->
+
+            <!-- carousel-cont -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselFeaturesIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon rounded-circle"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next text"
+              type="button"
+              data-bs-target="#carouselFeaturesIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- end-carousel-cont -->
+          </div>
+        </div>
+      </div>
+
+      <!-- end-content -->
+    </section>
+
+    <!-- promo -->
+
+    <section class="Promo p-5">
+      <div class="container">
+        <!-- head -->
+        <div class="row">
+          <div class="col">
+            <h4 class="sub-title d-sm-inline-block">Spesial Promo 8.8 SALE</h4>
+            <span class="countdown">
+              <p
+                id="demo"
+                class="
+                  d-inline-block
+                  mt-3 mt-sm-0
+                  ms-0 ms-sm-3
+                  pt-1
+                  pb-1
+                  ps-3
+                  pe-3
+                  rounded-pill
+                "
+              ></p>
+            </span>
+            <a class="more float-end mt-3 mt-sm-0" href="#">Lihat Semua </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- content2 -->
+
+      <div class="row">
+        <div class="col">
+          <!-- carousel-indi -->
+          <div
+            id="carouselPromocountIndicators"
+            class="carousel carousel-dark slide content"
+            data-bs-ride="carousel"
+            data-bs-interval="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselPromocountIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselPromocountIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <!-- end-carousel-indi -->
+
+            <!-- carousel-inner -->
+            <div class="carousel-inner my-3">
+              <div class="container">
+                <!-- page 1 -->
+                <div class="carousel-item active">
+                  <div class="row mx-5">
+                    <!-- item-1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/1.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-1 -->
+
+                    <!-- item-2 -->
+
+                    <div
+                      class="
+                        d-none d-sm-block
+                        col-sm-6 col-md-4 col-lg-3 col-xl-2
+                      "
+                    >
+                      <div class="card">
+                        <img
+                          src="img/features/2.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- end-item-2 -->
+
+                    <!-- item-3 -->
+                    <div class="d-none d-md-block col-md-4 col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/3.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-3 -->
+
+                    <!-- item-4 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/4.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-4 -->
+
+                    <!-- item-5 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/5.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-5 -->
+
+                    <!-- item-6 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/6.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-6 -->
+                  </div>
+                </div>
+                <!-- end-page 1 -->
+
+                <!-- page-2 -->
+                <div class="carousel-item">
+                  <div class="row mx-5">
+                    <!-- item-2 -->
+
+                    <div class="d-sm-none col-12">
+                      <div class="card">
+                        <img
+                          src="img/features/2.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- end-item-2 -->
+
+                    <!-- item-3 -->
+                    <div class="d-none d-sm-block d-md-none col-6">
+                      <div class="card">
+                        <img
+                          src="img/features/3.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-3 -->
+
+                    <!-- item-4 -->
+                    <div class="d-none d-sm-block d-lg-none col-6 col-md-4">
+                      <div class="card">
+                        <img
+                          src="img/features/4.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-sm-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-4 -->
+
+                    <!-- item-5 -->
+                    <div class="d-none d-md-block d-xl-none col-md-4 col-lg-3">
+                      <div class="card">
+                        <img
+                          src="img/features/5.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-5 -->
+
+                    <!-- item-6 -->
+                    <div class="d-none d-md-block d-xl-none col-md-4 col-lg-3">
+                      <div class="card">
+                        <img
+                          src="img/features/6.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-6 -->
+
+                    <!-- item-7 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/7.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-7 -->
+
+                    <!-- item-8 -->
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/8.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-8 -->
+
+                    <!-- item-9 -->
+                    <div class="d-none d-xl-block col-xl -2">
+                      <div class="card">
+                        <img
+                          src="img/features/9.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-9 -->
+
+                    <!-- item-10 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/10.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-10 -->
+
+                    <!-- item-11 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/11.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-11 -->
+
+                    <!-- item-12 -->
+                    <div class="d-none d-xl-block col-xl-2">
+                      <div class="card">
+                        <img
+                          src="img/features/12.png"
+                          class="card-img-top"
+                          alt="1"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Hoodie VRNCHY Spesial Edition</p>
+
+                          <div class="discon">
+                            <span
+                              class="discon-persen p-2 rounded-pill text-danger"
+                              >70%</span
+                            >
+                            <p
+                              class="
+                                d-inline-block
+                                text-secondary
+                                ms-1
+                                mt-md-3 mt-lg-0
+                              "
+                            >
+                              <s>Rp150.000,00</s>
+                            </p>
+                          </div>
+
+                          <h5 class="card-title mt-1 mb-3 text-truncate">
+                            Rp45.000,00.
+                          </h5>
+                          <div class="rate">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <p class="d-inline-block text-secondary">
+                              4.7 <span class="ms-2 me-2"></span> Terjual 100
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end-item-12 -->
+                  </div>
+                </div>
+                <!-- end-page-2 -->
+              </div>
+            </div>
+
+            <!-- end-carousel-inner -->
+
+            <!-- carousel-cont -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselPromocountIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon rounded-circle"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next text"
+              type="button"
+              data-bs-target="#carouselPromocountIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- end-carousel-cont -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="mt-5 p-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-3">
+            <a class="navbar-brand logo" href="#">Mars Store</a>
+            <p class="text-white">
+              All Rights Reserved by Mars Store Copyright 2021
+            </p>
+          </div>
+          <div class="col-2 text-end underline">
+            <a href="#"><i class="bi bi-instagram text-white fs-4"></i></a>
+            <a href="#"><i class="bi bi-facebook ms-3 text-white fs-4"></i></a>
+            <a href="#"><i class="bi bi-twitter ms-3 text-white fs-4"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end-footer -->
+
+    <!-- script countdown -->
+    <script type="text/javascript">
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML =
+          hours + " : " + minutes + " : " + seconds;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    </script>
+
+    <!-- end-script countdown -->
+
+    <!-- end-features -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
